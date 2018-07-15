@@ -19,5 +19,15 @@ $(document).ready(function(){
 });
 
 $(function() {
+    $('p').removeClass('new-class');
 
+    // $('h1').on('click', function(e){
+    //     // $(this).removeClass('second-header');
+    //     $(this).css({
+    //         'background-color': 'red'
+    //     });
+
+    $('h1').on('click', function(e){
+        $(this).fadeOut(5000);
+    });
 });
